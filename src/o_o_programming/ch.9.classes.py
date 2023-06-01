@@ -73,7 +73,7 @@ class User:
     name.greet_user()
 
 
-print('********************')
+
 
 
 
