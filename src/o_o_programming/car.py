@@ -27,6 +27,7 @@ class Car:
     def increment_odometer(self, miles):
         self.odometer_reading += miles
 
+
 my_new_car = Car('audi', 'a4', 2024)
 print(my_new_car.get_descriptive_name())
 #setting default value to an attribute

@@ -64,6 +64,9 @@ class ElectricCar(Car):
     def fill_gas_tank(self):
         print("This car doesn't have gas tank!")
 
+    def get_descriptive_name(self):
+        print(f"new description: \n{self.battery_size} kWh")
+
 
 my_leaf = ElectricCar('nissan', 'leaf', 2024)
 print(my_leaf.get_descriptive_name())
@@ -71,3 +74,4 @@ my_leaf.describe_battery()
 my_leaf.fill_gas_tank()
 my_leaf.battery.describe_battery()          # 4
 my_leaf.battery.get_range()
+my_leaf.get_descriptive_name()
