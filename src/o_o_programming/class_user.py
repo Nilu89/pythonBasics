@@ -1,4 +1,5 @@
 
+print(f"\n9.3 Users")
 class User:
     pass
 
@@ -13,14 +14,7 @@ class User:
         print(f"Hello {self.first_name}!")
         print(f"Nice to meet you!")
 
+
 name = User('Lily', 'Shodieva')
 name.describe_user()
 name.greet_user()
-
-class Admin(User):
-
-    def __init__(self, first_name, last_name, privileges):
-        super.__init__(first_name, last_name)
-
-    def show_priviliges(self):
-        print()

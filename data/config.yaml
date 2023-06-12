@@ -1,0 +1,9 @@
+testEu:
+  host: 'https://www.saucedemo.com/'
+  username: johndoe1
+  password: Secret1!
+
+testUs:
+  host: 'https://www.saucedemo.com/'
+  username: johndoe
+  password: Secret2!
